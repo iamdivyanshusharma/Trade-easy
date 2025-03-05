@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button{
+  color: white;
+  background-color: rebeccapurple;
+  border-radius: 20px;
+  border: 2px solid rebeccapurple;
+}
+
+button:hover{
+  background-color: #fbb247;
+  color: white;
+  border: 2px solid #fbb247;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+span{
+  color: rebeccapurple;
+}
+
+span:hover
+{
+  color: #fbb247;
+}
+
+h1
+{
+  color: rebeccapurple;
+  font-family: Helvetica,arial, sans-serif ;
+}
+
+.nav-link
+{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.nav-item
+{
+  margin-left: 40px;
+  margin-right: 70px;
+}
+
+a
+{
+  color:rebeccapurple;
+}
+a:hover
+{
+  cursor: pointer;
+  background-color: #fbb247;
+}
+
+.brand:hover
+{
+  color: rebeccapurple;
+}
+
+.pricingpage:hover{
+  color: rebeccapurple;
+}
+
+#support div a:hover
+{
+  cursor: pointer;
+  color: #fbb247 ;
+  background-color: white;
+}
+
+#support-hero
+{
+  background-color: rebeccapurple;
+}
+
+#support-hero div
+{
+  color: white;
+}
+
+#supportWrapper input{
+  padding: 20px 50px;
+  width: 50%;
+  border-radius: 15px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#supportWrapper input:active{
+  border: 1px solid rgb(255,255,255,0.4);
+}
